@@ -37,11 +37,7 @@ jQuery.fn.jquerytip = function(options) {
 	var divToolTipBody = jQuery('#jquerytip-tooltip-body');
 	var divToolTiInnerBody = jQuery('#jquerytip-tooltip-inner-body');	
 	
-	if (jQuery.fn.corners) {
-		divToolTipInnerWindow.corners();
-		divToolTipBody.corners();		
-	}	
-	
+
 	return this.each(function(){
 		var elem = jQuery(this);
 		var title = elem.attr("tooltiptext");
