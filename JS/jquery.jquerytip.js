@@ -16,7 +16,7 @@ jQuery.fn.jquerytip = function(options) {
 		
 		var strTooltipWindowHTML = "";
 		strTooltipWindowHTML += '<div id="jquerytip-tooltip-main-window" class="jquerytip-tooltip-main-window" style="z-index:9999; padding:12px; position:absolute;">';
-		strTooltipWindowHTML	+= '<div id="jquerytip-tooltip-inner-window" class="jquerytip-tooltip-inner-window" style="background:#116497; padding:3px;margin:0px;">';
+		strTooltipWindowHTML	+= '<div id="jquerytip-tooltip-inner-window" class="jquerytip-tooltip-inner-window" style="background:green; padding:3px;margin:0px;">';
 		strTooltipWindowHTML 	+= '	<div id="jquerytip-tooltip-body" class="jquerytip-tooltip-body" style="background-color:#1e90ff; padding:0px; margin:0px;">';
 		strTooltipWindowHTML	+= '		<div id="jquerytip-tooltip-inner-body" class="jquerytip-tooltip-inner-body" style="padding:2px; margin:0px;"></div>';		
 		strTooltipWindowHTML	+= '	</div>';		
